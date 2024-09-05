@@ -1,0 +1,6 @@
+@CSharp_personal_store_management_HostAddress = http://localhost:5105
+
+GET {{CSharp_personal_store_management_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
