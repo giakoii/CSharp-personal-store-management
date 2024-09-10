@@ -1,0 +1,15 @@
+/Users/giakhoi/myproject/personal-store-management/Repositories/bin/Debug/net8.0/Repositories.deps.json
+/Users/giakhoi/myproject/personal-store-management/Repositories/bin/Debug/net8.0/Repositories.runtimeconfig.json
+/Users/giakhoi/myproject/personal-store-management/Repositories/bin/Debug/net8.0/Repositories.dll
+/Users/giakhoi/myproject/personal-store-management/Repositories/bin/Debug/net8.0/Repositories.pdb
+/Users/giakhoi/myproject/personal-store-management/Repositories/obj/Debug/net8.0/Repositories.csproj.AssemblyReference.cache
+/Users/giakhoi/myproject/personal-store-management/Repositories/obj/Debug/net8.0/Repositories.GeneratedMSBuildEditorConfig.editorconfig
+/Users/giakhoi/myproject/personal-store-management/Repositories/obj/Debug/net8.0/Repositories.AssemblyInfoInputs.cache
+/Users/giakhoi/myproject/personal-store-management/Repositories/obj/Debug/net8.0/Repositories.AssemblyInfo.cs
+/Users/giakhoi/myproject/personal-store-management/Repositories/obj/Debug/net8.0/Repositories.csproj.CoreCompileInputs.cache
+/Users/giakhoi/myproject/personal-store-management/Repositories/obj/Debug/net8.0/Repositories.sourcelink.json
+/Users/giakhoi/myproject/personal-store-management/Repositories/obj/Debug/net8.0/Repositories.dll
+/Users/giakhoi/myproject/personal-store-management/Repositories/obj/Debug/net8.0/refint/Repositories.dll
+/Users/giakhoi/myproject/personal-store-management/Repositories/obj/Debug/net8.0/Repositories.pdb
+/Users/giakhoi/myproject/personal-store-management/Repositories/obj/Debug/net8.0/Repositories.genruntimeconfig.cache
+/Users/giakhoi/myproject/personal-store-management/Repositories/obj/Debug/net8.0/ref/Repositories.dll
