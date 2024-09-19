@@ -1,6 +1,8 @@
+using BussinessObject.Models;
+
 namespace Utils;
 
 public interface IUtils<T> where T : class
 {
-    String CreateId(T id, T prefix);
+    string CreateId(T entity, IBaseCRUD<T> repository);
 }

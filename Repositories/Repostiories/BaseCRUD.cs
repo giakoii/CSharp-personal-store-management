@@ -3,7 +3,15 @@ namespace BussinessObject.Models;
 public class BaseCRUD<T> : IBaseCRUD<T> where T : class
 {
     private PersonalStoreContext _context;
+
+    private long count;
     
+    public long Count()
+    {
+        _context = new PersonalStoreContext();
+        count = _context.Set<T>().LongCount();
+        return count;
+    }
     public T Create(T entity)
     {
         _context = new PersonalStoreContext();
@@ -11,8 +19,14 @@ public class BaseCRUD<T> : IBaseCRUD<T> where T : class
         _context.SaveChanges();
         return entity;
     }
+    
+    public List<T> FindAll()
+    {
+        _context = new PersonalStoreContext();
+        return _context.Set<T>().ToList();
+    }
 
-    public T GetById(string id)
+    public T FindById(string id)
     {
         _context = new PersonalStoreContext();
         return _context.Find<T>(id);

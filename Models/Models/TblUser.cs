@@ -11,17 +11,19 @@ public partial class TblUser
 
     public string? Password { get; set; }
 
+    public string? Email { get; set; }
+
     public string? FullName { get; set; }
 
     public string? NickName { get; set; }
-
-    public DateOnly? Birthday { get; set; }
-
-    public string? Email { get; set; }
 
     public string? Phone { get; set; }
 
     public string? Address { get; set; }
 
-    public string? Role { get; set; }
+    public Status? Status { get; set; }
+
+    public Role? Role { get; set; }
+
+    public virtual ICollection<TblOrder> TblOrders { get; set; } = new List<TblOrder>();
 }
