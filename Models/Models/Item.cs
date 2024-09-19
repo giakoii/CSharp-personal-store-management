@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace BussinessObject.Models;
 
-public partial class TblItem
+public partial class Item
 {
     public string ItemId { get; set; } = null!;
 

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace BussinessObject.Models;
 
-public partial class TblOrder
+public partial class Order
 {
     public string OrderId { get; set; } = null!;
 
@@ -15,7 +15,7 @@ public partial class TblOrder
 
     public string UserId { get; set; } = null!;
 
-    public virtual ICollection<TblItem> TblItems { get; set; } = new List<TblItem>();
+    public virtual ICollection<Item> TblItems { get; set; } = new List<Item>();
 
-    public virtual TblUser User { get; set; } = null!;
+    public virtual User User { get; set; } = null!;
 }
