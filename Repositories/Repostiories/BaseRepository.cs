@@ -1,6 +1,6 @@
 namespace BussinessObject.Models;
 
-public class BaseCRUD<T> : IBaseCRUD<T> where T : class
+public class BaseRepository<T> : IBaseCRUD<T> where T : class
 {
     private PersonalStoreContext _context;
 
@@ -52,7 +52,7 @@ public class BaseCRUD<T> : IBaseCRUD<T> where T : class
         var entity = _context.Find<T>(id);
         if (entity != null)
         {
-            _context.Remove(entity);
+            _context.Update(id);
             _context.SaveChanges();
         }
 
